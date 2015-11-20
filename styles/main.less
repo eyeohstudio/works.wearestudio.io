@@ -1,0 +1,217 @@
+// compress: false, strictMath: false
+// https://github.com/jdiehl/brackets-less-autocompile
+// LESS AutoCompile
+// LESS AutoCompile is an extension for the code editor Brackets that adds automatic compilation of LESS files upon saving.
+
+@import url('base.less');
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+@media (max-width: 767px) {
+
+  .tweedledum {
+    height: 50px !important; width: auto;
+  }
+
+  .tweedledee {
+    float: left !important;
+    margin-top: -35px !important;
+    margin-bottom: 45px;
+  }
+
+  .bottom {
+    .hide !important;
+  }
+
+  .container {
+    padding-bottom: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .bottom .wrapper {
+    width: 720px;
+  }
+
+  .container {
+    padding-bottom: 110px + 90 !important;
+  }
+}
+
+@media (min-width: 992px) {
+
+  .bottom .wrapper {
+    width: 940px;
+  }
+
+  .container {
+    padding-bottom: 110px + 90 !important;
+  }
+
+}
+
+@media (min-width: 1200px) {
+
+  .bottom .wrapper {
+    width: 1140px;
+  }
+
+  .container {
+    padding-bottom: 110px !important;
+  }
+}
+
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+::selection {
+  background-color: fadeout(@black, 64%);
+  color: @black;
+}
+
+::-moz-selection {
+  background-color: fadeout(@black, 64%);
+  color: @black;
+}
+
+.bottom {
+  .show;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0; left: 0;
+  height: auto; width: 100%;
+  opacity: .85;
+}
+
+.bottom .wrapper {
+  background-color: @black;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px 0;
+  position: relative;
+  text-align: center;
+}
+
+.no-svg
+.tweedledum {
+  background-image: url('images/logo.png');
+}
+
+.tweedledum {
+  .show;
+  background-image: url('../objects/logo.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 55px; width: auto;
+  margin: 5px 0 45px 0;
+}
+
+.tweedledee {
+  .BrixSlabExtraLight;
+  .show;
+  float: right;
+  font-size: 22px;
+  line-height: 25px;
+  margin-top: 45px;
+}
+
+.project {
+  border-top: 1px solid @black; border-bottom: 1px solid @black;
+  padding: 45px 0 35px 0;
+}
+
+.container {
+  background-color: @white;
+  padding: 45px;
+}
+
+.wrapper {
+
+}
+
+html {
+
+  body {
+    .BrixSlabExtraLight;
+    background-color: fadeout(@black, 15%);
+    margin: 0;
+
+    a,
+    a:active,
+    a:link,
+    a:visited {
+      color: @black;
+    }
+
+    a:focus,
+    a:hover {
+      .transition;
+      color: fadeout(@black, 32%);
+      text-decoration: none;
+    }
+
+    .row.slides .col-xs-12 {
+      padding-top: 45px;
+    }
+
+    .row.slides .col-xs-12 img {
+      .show;
+      height: auto; width: 100%;
+      margin: 0;
+      margin-bottom: 45px;
+    }
+
+    .row.bottom .col-xs-12 img {
+      background-color: @white;
+      height: 83px; width: 130px;
+      margin: 5px;
+    }
+
+    .row.project .col-xs-3,
+    .row.project .col-xs-9 {
+      text-align: left;
+    }
+
+    .row.project .col-xs-12 h2 {
+      .BrixSlabExtraLight;
+      font-size: 33px;
+      line-height: 28px;
+      margin-top: 20px;
+      text-transform: none;
+    }
+
+    h2 {
+      .BrixSansBold;
+      .show;
+      color: @black;
+      font-size: 19px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    p {
+      .BrixSlabExtraLight;
+      .show;
+      color: @black;
+      font-size: 19px;
+      line-height: 25px;
+      margin: 0;
+      margin-top: 45px;
+    }
+
+    small {
+      .BrixSansExtraLight;
+      .show;
+      color: @black;
+      font-size: 14px;
+      margin: 0;
+      text-transform: uppercase;
+    }
+  }
+}

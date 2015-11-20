@@ -1,0 +1,41 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3128674, 2015-11-20T06:08:12-0500
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: BrixSansBold by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/bold/
+ * Copyright: Copyright (c) 2014 by Hannes von Doehren, Livius Dietzel. All rights reserved.
+ *
+ * Webfont: BrixSansExtraLight by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-sans/extra-light/
+ * Copyright: Copyright (c) 2014 by Hannes von Doehren, Livius Dietzel. All rights reserved.
+ *
+ * Webfont: BrixSlab-ExtraLight by HVD Fonts
+ * URL: http://www.myfonts.com/fonts/hvdfonts/brix-slab/ex-light/
+ * Copyright: Copyright (c) 2011 by Hannes von Doehren, Livius Dietzel. All rights reserved.
+ *
+ *
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3128674
+ * Licensed pageviews: 10,000
+ *
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2fbd62");
+
+
+@font-face {font-family: 'BrixSansBold';src: url('../fonts/2FBD62_0_0.eot');src: url('../fonts/2FBD62_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2FBD62_0_0.woff2') format('woff2'),url('../fonts/2FBD62_0_0.woff') format('woff'),url('../fonts/2FBD62_0_0.ttf') format('truetype'),url('../fonts/2FBD62_0_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'BrixSansExtraLight';src: url('../fonts/2FBD62_1_0.eot');src: url('../fonts/2FBD62_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2FBD62_1_0.woff2') format('woff2'),url('../fonts/2FBD62_1_0.woff') format('woff'),url('../fonts/2FBD62_1_0.ttf') format('truetype'),url('../fonts/2FBD62_1_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'BrixSlab-ExtraLight';src: url('../fonts/2FBD62_2_0.eot');src: url('../fonts/2FBD62_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2FBD62_2_0.woff2') format('woff2'),url('../fonts/2FBD62_2_0.woff') format('woff'),url('../fonts/2FBD62_2_0.ttf') format('truetype'),url('../fonts/2FBD62_2_0.svg#wf') format('svg');}
